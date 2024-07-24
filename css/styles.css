@@ -46,8 +46,9 @@ img {
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
+    width: 320px;
+    height: 56px;
+
 }
 
 .logo {
@@ -62,8 +63,13 @@ img {
 }
 
 .header-logo {
-    padding: 24px 0;
-    margin-right: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    padding: 16px 0;
+    margin-right: 149px;
 }
 
 .logo-name-two {
@@ -72,11 +78,13 @@ img {
 
 .navigation {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header-menu {
-    margin-left: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .navigation-list {
