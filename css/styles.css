@@ -1202,9 +1202,15 @@ textarea {
     padding-right: 15px;
 }
 
+                  /*HEADER*/
+
 .header-logo {
     margin-right: 76px;
  }
+
+.address {
+    margin-left: auto;
+}
 
 .address-list {
     flex-direction: row;
@@ -1219,14 +1225,114 @@ textarea {
     padding: 24px 0;
 }
 
+                /*Section 1*/
 
+.section-main {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 
+               /*Section 2*/
 
+.section-properties {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
+.properties-list {
+    display: flex;
+    gap: 24px;
+}
 
+.properties-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
 
+.properties-item {
+    width: calc((100% - 72px) / 4);
+}
 
+.properties-icon {
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
 
+.properties-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
 
+.properties-text {
+    font-weight: 400;
+}
+
+               /*Section 3*/
+
+.section-specialists {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.specialists-container {
+    width: 1130px;
+}
+
+.specialists-list {
+    gap: 24px;
+}
+
+.specialist-item {
+    width: calc((100% - 72px) / 4);
+}
+
+               /*Section 4*/
+
+.section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-list {
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+    box-shadow: none;
+}
+
+.portfolio-item:hover {
+    box-shadow:
+        0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+                  /*FOOTER*/
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-navigation {
+    margin-right: 120px;
+}
+
+.footer-subscribe {
+    margin-left: auto;
+}
 
 }
