@@ -320,6 +320,7 @@ button {
     background-color: #404BBF;
     color: #ffffff;
 }
+
                      /*Section 2*/
 
 .section-properties {
@@ -375,6 +376,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
                      /*Section 3*/
 
 .section-specialists {
@@ -468,6 +470,7 @@ button {
 .specialists-media-icon {
     fill: #f4f4fd;
 }
+
                      /*Section 4*/
 
 .section-portfolio {
@@ -567,7 +570,7 @@ button {
     color: #434455;
 }
 
-                       /*FOOTER*/
+                      /*FOOTER*/
 
 .footer {
     background: #2e2f42;
@@ -986,7 +989,8 @@ textarea {
 }
 
 
-            @media screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) {
 
 .container {
     width: 768px;
@@ -1100,6 +1104,8 @@ textarea {
     margin-bottom: 48px;
 }
 
+                /*Section 2*/
+
 .properties-list {
     display: flex;
     flex-direction: row;
@@ -1114,7 +1120,7 @@ textarea {
     text-align: start;
 }
 
-                  /*Section 2*/
+                /*Section 3*/
 
 .section-specialists {
     padding-left: 92px;
@@ -1135,7 +1141,7 @@ textarea {
     width: calc((100% - 24px) / 2);
 }
 
-                  /*Section 3*/
+                  /*Section 4*/
 
 .portfolio-list {
     column-gap: 24px;
@@ -1194,6 +1200,7 @@ textarea {
 }
 
 
+
 @media screen and (min-width: 1158px) {
 
 .container {
@@ -1202,7 +1209,7 @@ textarea {
     padding-right: 15px;
 }
 
-                  /*HEADER*/
+                    /*HEADER*/
 
 .header-logo {
     margin-right: 76px;
@@ -1225,7 +1232,7 @@ textarea {
     padding: 24px 0;
 }
 
-                /*Section 1*/
+                  /*Section 1*/
 
 .section-main {
     max-width: 1440px;
@@ -1233,7 +1240,7 @@ textarea {
     padding-bottom: 188px;
 }
 
-               /*Section 2*/
+                  /*Section 2*/
 
 .section-properties {
     padding-top: 120px;
@@ -1275,7 +1282,7 @@ textarea {
     font-weight: 400;
 }
 
-               /*Section 3*/
+                   /*Section 3*/
 
 .section-specialists {
     padding-top: 120px;
@@ -1296,7 +1303,7 @@ textarea {
     width: calc((100% - 72px) / 4);
 }
 
-               /*Section 4*/
+                  /*Section 4*/
 
 .section-portfolio {
     padding-top: 120px;
