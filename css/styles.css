@@ -394,12 +394,10 @@ button {
     background: #f4f4fd;
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 28px;
-    padding-right: 28px;
 }
 
 .specialists-container {
-    width: 264px;
+    width: 296px;
 }
 
 .specialists-title {
@@ -454,7 +452,7 @@ button {
 .specialists-media {
     display: flex;
     justify-content: center;
-    gap: 18px;
+    gap: 24px;
 }
 
 .specialists-media-list {
@@ -596,12 +594,7 @@ button {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 72px;
-    width: 288px;
-}
-
-.footer-navigation {
-    margin-right: 16px;
-    margin-left: 16px;
+    width: 320px;
 }
 
 .footer-logo {
@@ -688,7 +681,7 @@ button {
 .form-subscribe {
     border: 1px solid #ffffff;
     border-radius: 4px;
-    width: 264px;
+    width: 288px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
@@ -1101,7 +1094,7 @@ textarea {
     padding-top: 112px;
     padding-bottom: 112px;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-          url(../images/people-office-tabl-opt-1x.jpg);
+          url(../images/people-office-tabl-opt-1х.jpg);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -1134,7 +1127,7 @@ textarea {
 }
 
 .properties-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
 }
 
 .properties-title {
@@ -1143,19 +1136,15 @@ textarea {
 
                 /*Section 3*/
 
-.section-specialists {
-    padding-left: 92px;
-    padding-right: 92px;
-}
-
 .specialists-container {
-    width: 552px;
+    width: 584px;
 }
 
 .specialists-list { 
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 64px;
 }
 
 .specialist-item {
@@ -1203,6 +1192,10 @@ textarea {
 .footer-subscribe {
     display: block;
     flex-direction: column;
+}
+
+.form-subscribe {
+    width: 264px;
 }
 
                      /*MODAL*/
@@ -1260,7 +1253,7 @@ textarea {
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office-desk-opt-1х.jpg);
+        url(../images/people-office-desk-opt-1x.jpg);
 }
 
  @media (min-device-pixel-ratio: 2),
@@ -1269,7 +1262,7 @@ textarea {
     (min-resolution: 2dppx) {
      .section-main {
          background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-             url(../images/people-office-desk-opt-2х.jpg);
+             url(../images/people-office-desk-opt-2x.jpg);
      }
  }
 
@@ -1366,6 +1359,10 @@ textarea {
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.footer-container {
+    gap: 0;
 }
 
 .footer-navigation {
